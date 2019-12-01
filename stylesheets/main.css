@@ -1,0 +1,26 @@
+body{
+    background-color:blue;
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.conatiner{
+    display: flex;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color:gray;
+    border: 2px solid black;
+    text-align: center;    
+}
+
