@@ -29,56 +29,65 @@ $(function(){
    function checkGame(){
    if($('#0').text()  == $('#1').text() && $('#2').text() == $('#1').text() && $('#2').text() != "")
   {
-  setTimeout(function() {alert(  `player ${$('#0').text()}  is win` )},500)
-   audiow.play() 
+  setTimeout(function() {alert( `player ${$('#0').text()}  is win`)},500)
+   audiow.play()
+   $('#move').text(count) 
   }
 
   if($('#3').text()  == $('#4').text() && $('#5').text() == $('#4').text() && $('#5').text() != "")
   {
   setTimeout(function(){ alert(  `player ${$('#3').text()}  is win` )},500)
     audiow.play()
+    $('#move').text(count)
   }
 
   if($('#6').text()  == $('#7').text() && $('#8').text() == $('#7').text() && $('#8').text() != "")
   {
  setTimeout(function()  {alert(  `player ${$('#6').text()}  is win` )},500)
-    audiow.play() 
+  audiow.play()
+  $('#move').text(count) 
   }
 
  if($('#0').text()  == $('#3').text() && $('#6').text() == $('#3').text() && $('#6').text() != "")
   {
  setTimeout(function()  {alert(  `player ${$('#0').text()}  is win` )},500)
     audiow.play()
+    $('#move').text(count)
   }
 
  if($('#1').text()  == $('#4').text() && $('#7').text() == $('#4').text() && $('#7').text() != "")
  {
   setTimeout(function()  { alert(  `player ${$('#1').text()}  is win` )},500)
    audiow.play()
+   $('#move').text(count)
  }
 
  if($('#2').text()  == $('#5').text() && $('#8').text() == $('#5').text() && $('#8').text() != "")
  {
  setTimeout(function() { alert(  `player ${$('#2').text()}  is win` )},500)
    audiow.play()
+   $('#move').text(count)
  }
 
 if($('#0').text()  == $('#4').text() && $('#8').text() == $('#4').text() && $('#8').text() != "")
 {
 setTimeout(function() { alert(  `player ${$('#0').text()}  is win` )},500)
   audiow.play()
+  $('#move').text(count)
 }
 
 if($('#2').text()  == $('#4').text() && $('#6').text() == $('#4').text() && $('#6').text() != "")
 {
 setTimeout(function() {alert(  `player ${$('#2').text()}  is win` )},500)
-   audiow.play() 
+   audiow.play()
+   $('#move').text(count) 
 } 
 
 else if(count == 9 ) 
   {
 setTimeout(function()  {alert(  `player is tie` )},500) 
     audiol.play() 
+    $('#move').text(count)
   }
 
 
@@ -95,6 +104,7 @@ setTimeout(function()  {alert(  `player is tie` )},500)
 
     rest()
       })
+
       
       
       
