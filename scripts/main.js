@@ -1,7 +1,7 @@
-const audioX = new Audio('../audio/Click2-Sebastian-759472264.mp3');
-const audioy = new Audio('../audio/Click sound effect.mp3');
-const audiow= new Audio('../audio/Audience Clapping.mp3');
-const audiol= new Audio('../audio/FAIL SOUND EFFECT.mp3');
+const audioX = new Audio('audio/Click2-Sebastian-759472264.mp3');
+const audioy = new Audio('audio/Click sound effect.mp3');
+const audiow= new Audio('audio/Audience Clapping.mp3');
+const audiol= new Audio('audio/FAIL SOUND EFFECT.mp3');
 
 $(function(){
   let count = 0;
@@ -31,7 +31,7 @@ $(function(){
   {
   setTimeout(function() {alert( `player ${$('#0').text()}  is win`)},500)
    audiow.play()
-   $('#move').text(count) 
+   $('#move').text(count)
   }
 
   if($('#3').text()  == $('#4').text() && $('#5').text() == $('#4').text() && $('#5').text() != "")
@@ -59,7 +59,7 @@ $(function(){
  {
   setTimeout(function()  { alert(  `player ${$('#1').text()}  is win` )},500)
    audiow.play()
-   $('#move').text(count)
+   $('#move').text(count) 
  }
 
  if($('#2').text()  == $('#5').text() && $('#8').text() == $('#5').text() && $('#8').text() != "")
@@ -67,6 +67,7 @@ $(function(){
  setTimeout(function() { alert(  `player ${$('#2').text()}  is win` )},500)
    audiow.play()
    $('#move').text(count)
+   
  }
 
 if($('#0').text()  == $('#4').text() && $('#8').text() == $('#4').text() && $('#8').text() != "")
@@ -81,6 +82,7 @@ if($('#2').text()  == $('#4').text() && $('#6').text() == $('#4').text() && $('#
 setTimeout(function() {alert(  `player ${$('#2').text()}  is win` )},500)
    audiow.play()
    $('#move').text(count) 
+   
 } 
 
 else if(count == 9 ) 
@@ -90,24 +92,24 @@ setTimeout(function()  {alert(  `player is tie` )},500)
     $('#move').text(count)
   }
 
-
   }
  function rest(){
  count =0
  $(".box").html("")
   $(".box").off()
  $(".box").on('click', game)
-  
+ $('#move').text("")
+ 
+ 
   }
            
   $('#i1').on('click',function(){
+    
+  rest()
+})
 
-    rest()
-      })
-
       
-      
-      
+        
     });
 
    
