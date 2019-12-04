@@ -5,7 +5,7 @@
 <!-- heading part -->
 #  Project Tic Tac Toe
 
-introduction here....
+The project is a game Tic tac toe and plays two users. The first user plays X and then second user plays o.
 
 ## My Project Deployment
 ---
