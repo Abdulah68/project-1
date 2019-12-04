@@ -37,6 +37,45 @@ h1 , h2{
     color: #063852;
     background-color: #e6df44
 }
+@media only screen and (max-width: 320px){
+
+body{ flex-direction: columns ;
+float: left;
+ display: flex;
+}
+    
+}
+@media (max-width: 992px){
+   
+body{ flex-direction: columns ;
+float: left;
+ display: flex;
+}
+.conatiner{
+display: flex;
+flex-direction: column;
+}
+}
+/* ----------------------------------- */
+@media (max-width: 640px) {
+    body{
+        /* background-color: brown; */
+        width: 95%;
+        font-size: 28px;
+    }
+   }
+   @media (max-width: 1024px) {
+    body{
+        /* background-color:red; */
+       margin: 10px;
+       
+    }
+    h1{
+        font-size: 38px;
+    }
+  }
+
+
 
 
 

@@ -6,7 +6,7 @@ const audiol= new Audio('../audio/FAIL SOUND EFFECT.mp3');
 $(function(){
   let count = 0;
   function game(){
-
+    
   const element =  $(event.target)
   $('element').css({
     color:'wihte'
