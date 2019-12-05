@@ -8,6 +8,7 @@
 The project is a game Tic tac toe and plays two users. The first user plays X and then second user plays o.
 
 ## My Project Deployment
+[Tic Tac Toe](https://abdulah68.github.io/project-1/)
 
 ## Technologies used in the project
 
