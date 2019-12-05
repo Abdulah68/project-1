@@ -8,9 +8,9 @@
 The project is a game Tic tac toe and plays two users. The first user plays X and then second user plays o.
 
 ## My Project Deployment
----
+
 ## Technologies used in the project
----
+
 * Visual Studio Code
 * Github
 - fornt End
@@ -22,7 +22,7 @@ The project is a game Tic tac toe and plays two users. The first user plays X an
 * Make responsive mobile version
 
 ## Wireframes and user stories
----
+
 * As a user, I should be able to open a new tic- tac -toe game.
 * As a user, I should be able to click on a square to add X first and then O, and so on.
 * As a user, I should be shown a message after each turn for if I win and tie. 
@@ -32,7 +32,7 @@ The project is a game Tic tac toe and plays two users. The first user plays X an
 
 
 ## Planning and Development Process
----
+
 ## Day 1:
 * Make the Structure of HTML file 
 * Make CSS file 
@@ -46,7 +46,7 @@ The project is a game Tic tac toe and plays two users. The first user plays X an
 * Make Style in CSS 
 ## Day 4:
 * Make the game Respoonsive for version mobile and Desktop
----
+
 # Describe any lines or function in the code
 
 ```js
